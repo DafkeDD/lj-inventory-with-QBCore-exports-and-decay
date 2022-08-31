@@ -2,7 +2,7 @@
 
 Change giveStarterItems function inside qb-multicharacter and qb-cityhal to this function
 
-local function giveStarterItems()
+```local function giveStarterItems()
     local Player = QBCore.Functions.GetPlayer(source)
     if not Player then return end
     for _, v in pairs(QBCore.Shared.StarterItems) do
@@ -22,7 +22,7 @@ local function giveStarterItems()
         end
         exports['lj-inventory']:AddItem(src, v.item, 1, nil, info)
     end
-end
+end```
 
 # Inventory Decay
 
