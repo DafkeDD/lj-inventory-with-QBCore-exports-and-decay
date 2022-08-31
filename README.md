@@ -1,4 +1,7 @@
 # lj-inventory with QBCore exports and decay
+BEWARE THIS IS A CHANGE TO MAKE THE LJ-INVENTORY WORK WITH THE LATEST VERSION OF QBCORE AND THEIR EXPORTS
+I DID NOT CREATE THIS SCRIPT, CREDITS FOR THIS SCRIPT GO TO PROJECT SLOTH, LJ
+
 
 Change giveStarterItems function inside qb-multicharacter and qb-cityhal to this function
 
